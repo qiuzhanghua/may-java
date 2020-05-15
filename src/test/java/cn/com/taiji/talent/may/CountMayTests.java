@@ -77,7 +77,7 @@ public class CountMayTests {
     void count_09() {
         CountMay countMay = new CountMay();
         ImmutablePair traps[] = {};
-        assertEquals(12870, countMay.count(9, 9, traps), "3 * 4 的棋盘无陷阱，有12870种走法");
+        assertEquals(12870, countMay.count(9, 9, traps), "9 * 9 的棋盘无陷阱，有12870种走法");
     }
 
 }
